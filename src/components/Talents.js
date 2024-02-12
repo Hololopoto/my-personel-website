@@ -34,7 +34,7 @@ function Talents() {
           <div className="img">
             <img
               className="h-36"
-              src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
               alt="HTML5"
             />
           </div>
@@ -46,7 +46,7 @@ function Talents() {
           <div className="img">
             <img
               className="h-36"
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
               alt="HTML5"
             />
           </div>
