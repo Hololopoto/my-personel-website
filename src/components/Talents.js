@@ -31,6 +31,7 @@ function Talents() {
       </div>
       <div className="maincontain flex h-auto box-border  bg-red-400">
         <div className="container mx-20  h-64 w-[50%]  gap-3 flex flex-col items-center justify-center bg-white">
+          <p>Text Content</p>
           <div className="img">
             <img
               className="h-36"
