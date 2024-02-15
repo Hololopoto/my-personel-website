@@ -150,36 +150,36 @@ function Talents() {
         </div>
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
-            <p className=" text-lg">Text Content</p>
+            <p className=" text-lg">Version Control System</p>
           </div>
 
           <div className="img mt-12 flex justify-center items-center">
             <img
               className="h-36 hover:scale-125 transition"
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
               alt="HTML5"
             />
           </div>
 
           <div className="float-right  m-6">
-            <h1>Css</h1>
+            <h1>Git</h1>
           </div>
         </div>
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
-            <p className=" text-lg">Text Content</p>
+            <p className=" text-lg">Repo Hosting Service</p>
           </div>
 
           <div className="img mt-12 flex justify-center items-center">
             <img
               className="h-36 hover:scale-125 transition"
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+              src="https://assets.stickpng.com/images/629b7adc7c5cd817694c3231.png"
               alt="HTML5"
             />
           </div>
 
           <div className="float-right  m-6">
-            <h1>Css</h1>
+            <h1>GitHub</h1>
           </div>
         </div>
       </div>
