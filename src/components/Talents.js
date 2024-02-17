@@ -173,8 +173,8 @@ function Talents() {
           <div className="img mt-12 flex justify-center items-center">
             <img
               className="h-36 hover:scale-125 transition"
-              src="https://assets.stickpng.com/images/629b7adc7c5cd817694c3231.png"
-              alt="HTML5"
+              src="/src/İmages/Github.png"
+              alt="GitHub"
             />
           </div>
 
