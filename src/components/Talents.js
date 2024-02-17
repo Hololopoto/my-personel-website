@@ -173,7 +173,7 @@ function Talents() {
           <div className="img mt-12 flex justify-center items-center">
             <img
               className="h-36 hover:scale-125 transition"
-              src="/src/İmages/Github.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/54/GitHub_Logo.png"
               alt="GitHub"
             />
           </div>
