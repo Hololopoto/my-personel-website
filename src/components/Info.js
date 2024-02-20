@@ -10,13 +10,13 @@ function Info({ infoImg, infoText }) {
   return (
     <div>
       <div className="flex items-center gap-3 m-4 rounded-lg bg-slate-400 ">
-        <div className="w-40 h-40 flex justify-center items-center">
+        <div className="w-20 h-20  flex justify-center items-center">
           <img
             src={infoImg}
             alt=""
             onClick={zoomInfo}
-            className={`m-2  ${
-              zoom && "scale-[500%] hover:cursor-zoom-out"
+            className={`m-2 object-cover ${
+              zoom && "scale-[1300%] hover:cursor-zoom-out"
             } hover:cursor-zoom-in transition-all`}
           />
         </div>
