@@ -16,7 +16,9 @@ function Project({ Title, Img, DetailsImg, DetailsText, Details, Link }) {
           className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
           Details
         </button>
-        {detail ? <div className="">{Details}</div> : null}
+        {detail ? (
+          <div className="text-black transition-all">{Details}</div>
+        ) : null}
         <div className="w-10/12">
           <img src={Img} alt="Netflix-Clone" />
         </div>

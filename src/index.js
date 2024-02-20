@@ -4,14 +4,14 @@ import "./index.css";
 import Header from "./components/Header";
 import Talents from "./components/Talents";
 import Projects from "./components/Projects";
-import Info from "./components/Info";
+import MyInfo from "./components/MyInfo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
   <>
     <Header />
-    <Info />
+    <MyInfo />
     <Talents />
     <Projects />
   </>

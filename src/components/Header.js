@@ -7,7 +7,7 @@ function App() {
   };
   return (
     <div className="App bg-slate-300">
-      <div className="container  ">
+      <div className="container mb-10 ">
         <div className="items h-20 flex flex-row items-center text-white">
           <button
             className=" px-5 py-3 m-9 rounded-md bg-zinc-700"
