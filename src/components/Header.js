@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 
 function App() {
   const [menu, setMenu] = useState(false);
-  const handleMenu = () => {
+  const handleMenu = (e) => {
     setMenu(!menu);
   };
   return (

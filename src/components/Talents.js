@@ -3,7 +3,7 @@ import React from "react";
 function Talents() {
   return (
     <div className="box-border flex flex-col gap-6">
-      <div className="maincontain flex h-auto box-border  bg-red-400">
+      <div className="maincontain flex h-auto box-border  ">
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
             <p className=" text-lg">Programing Language</p>
@@ -40,7 +40,7 @@ function Talents() {
         </div>
       </div>
 
-      <div className="maincontain flex h-auto box-border  bg-red-400">
+      <div className="maincontain flex h-auto box-border  ">
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
             <p className=" text-lg">Style Markup Language</p>
@@ -77,7 +77,7 @@ function Talents() {
         </div>
       </div>
       {/* 3Lü Satır */}
-      <div className="maincontain flex h-auto box-border  bg-red-400">
+      <div className="maincontain flex h-auto box-border  ">
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
             <p className=" text-lg">API</p>
@@ -130,7 +130,7 @@ function Talents() {
           </div>
         </div>
       </div>
-      <div className="maincontain flex h-auto box-border  bg-red-400">
+      <div className="maincontain flex h-auto box-border  ">
         <div className="container mx-10  h-64 w-[50%] hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
           <div className="float-left m-3 absolute">
             <p className=" text-lg">Responsive Design</p>
