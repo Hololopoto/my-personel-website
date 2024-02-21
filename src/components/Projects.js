@@ -5,6 +5,7 @@ import netflix from "./Images/netflix.png";
 import netflix1 from "./Images/NetflixInfo1.png";
 import netflix2 from "./Images/NetflixInfo2.png";
 import netflix3 from "./Images/NetflixInfo3.png";
+import netflix4 from "./Images/NetflixInfo4.png";
 
 function Projects() {
   return (
@@ -19,6 +20,11 @@ function Projects() {
         Img={netflix}
         Details={
           <div className="bg-slate-300 absolute left-[32rem] rounded-lg">
+            <Info
+              infoText={
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, praesentium."
+              }
+            />
             <Info
               infoImg={netflix1}
               infoText={
@@ -38,13 +44,7 @@ function Projects() {
               }
             />
             <Info
-              infoImg={netflix2}
-              infoText={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, praesentium."
-              }
-            />
-            <Info
-              infoImg={netflix2}
+              infoImg={netflix4}
               infoText={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, praesentium."
               }
