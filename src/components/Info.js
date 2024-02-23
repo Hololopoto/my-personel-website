@@ -17,7 +17,7 @@ function Info({ infoImg, infoText }) {
             onClick={zoomInfo}
             className={`m-2 object-cover rounded-tr-md rounded-bl-md  ${
               zoom &&
-              "scale-[1300%] max-[768px]:scale-[600%] max-[768px]:ml-[15.7rem] ml-[58.5rem] hover:cursor-zoom-out"
+              "scale-[1300%] max-[768px]:scale-[600%] max-[1024px]:scale-[1000%] max-[1024px]:ml-[35rem] max-[768px]:ml-[15.7rem] ml-[58.5rem] hover:cursor-zoom-out"
             } hover:cursor-zoom-in transition-all`}
           />
         </div>
