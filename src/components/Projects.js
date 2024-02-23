@@ -19,7 +19,7 @@ function Projects() {
         Link={"https://hololopoto-netflix-clone.netlify.app/"}
         Img={netflix}
         Details={
-          <div className="bg-slate-300 absolute left-[32rem] rounded-lg">
+          <div className="bg-slate-300 absolute left-[32rem] max-[768px]:left-16 z-50 max-[768px]: w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
             <Info
               infoText={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, praesentium."
