@@ -7,7 +7,7 @@ function Project({ Title, Img, DetailsImg, DetailsText, Details, Link }) {
   };
   return (
     <div>
-      <div className="flex flex-col items-center text-white">
+      <div className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-slate-700 items-center text-white">
         <div className="text-3xl m-7 mb-20">
           <h1>{Title}</h1>
         </div>
