@@ -17,7 +17,7 @@ import pokedex5 from "./Images/PokedexInfo5.png";
 function Projects() {
   return (
     <div>
-      <div className="text-3xl flex justify-center text-white m-7 mb-20">
+      <div className="text-3xl flex justify-center text-white m-7 mb-10">
         <h1>My Project</h1>
       </div>
 
