@@ -2,7 +2,7 @@ import React from "react";
 
 function Talent2({ Top, Img, Alt, Bottom }) {
   return (
-    <div className="container mx-10 max-[768px]:m-2 max-[768px]:hover:scale-100 :  h-64 w-[50%]  hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
+    <div className="container box-border mx-10 max-[768px]:m-2 max-[768px]:hover:scale-100 :  h-64 w-[50%]  hover:scale-110 cursor-pointer transition gap-3  rounded-lg bg-white">
       <div className="float-left m-3 absolute">
         <p className=" text-lg max-[768px]:text-sm text-wrap">{Top}</p>
       </div>

@@ -42,7 +42,7 @@ function Talents() {
         />
       </div>
       {/* 3Lü Satır */}
-      <div className="maincontain flex h-auto box-border  ">
+      <div className="maincontain flex h-auto box-border">
         <Talent
           Top={"API"}
           Img={"https://devnot.com/wp-content/uploads/2017/04/jsonapi.png"}
