@@ -123,9 +123,7 @@ function Projects() {
               InfoText={
                 "PokeApi, Axios, React.js and Tailwind were used in this project."
               }
-              InfoText2={
-                "My goal in this project is to create a pokemon list with the data in the API."
-              }
+              InfoText2={"My goal"}
             />
 
             <Info
