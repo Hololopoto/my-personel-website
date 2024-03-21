@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 
-function Project({ Title, Img, DetailsImg, DetailsText, Details, Link }) {
+function Project({
+  Title,
+  Img,
+  DetailsImg,
+  DetailsText,
+  Details,
+  Link,
+  Github,
+}) {
   const [detail, setDetail] = useState(false);
   const handleDetail = (e) => {
     setDetail(!detail);
@@ -22,11 +30,18 @@ function Project({ Title, Img, DetailsImg, DetailsText, Details, Link }) {
         <div className="w-10/12">
           <img src={Img} alt="Netflix-Clone" />
         </div>
-        <a href={Link} target="_blank">
-          <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
-            Go Project
-          </button>
-        </a>
+        <div className="flex gap-x-96 ">
+          <a href={Link} target="_blank">
+            <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
+              Go Project
+            </button>
+          </a>
+          <a href={Github} target="_blank">
+            <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
+              GİtHub
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
