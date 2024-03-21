@@ -19,6 +19,8 @@ import crossword2 from "./Images/CrosswordInfo2.png";
 import crossword3 from "./Images/CrosswordInfo3.png";
 import crossword4 from "./Images/CrosswordInfo4.png";
 import crossword5 from "./Images/CrosswordInfo5.png";
+import weather from "./Images/Weather.png";
+
 function Projects() {
   return (
     <div>
@@ -125,9 +127,7 @@ function Projects() {
         Details={
           <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
             <Info
-              InfoText={
-                "Axios, React.js and Tailwind were used in this project."
-              }
+              InfoText={"React.js and Tailwind were used in this project."}
               InfoText2={
                 "The goal in this project was to create a word game by mixing random letters with the letters containing the answer."
               }
@@ -143,20 +143,71 @@ function Projects() {
             <Info
               InfoImg={crossword3}
               InfoText={
-                "I defined a background color that changes depending on the type of pokemon."
+                "A function that checks whether the answer is true or false. If the entered word has the same number of characters and is the same as the answer,"
+              }
+              InfoText2={
+                " it clears the written words and moves on to the next question. If not, it reports that it is wrong."
               }
             />
 
             <Info
               InfoImg={crossword4}
               InfoText={
-                "I used the images from a different URL because it looked better."
+                "The function I use with onClick to delete incorrectly entered letters"
               }
-              InfoText2={`While the id in the API was 1,2,3, the names corresponding to this URL were 001,002,003. I used "padStart( )" to fix this situation.`}
             />
             <Info
               InfoImg={crossword5}
-              InfoText={"I wrote the initials of the names in uppercase"}
+              InfoText={`If the answer was entered incorrectly, the value of the definition of "wrong" became true, and even if we deleted the incorrect letters,`}
+              InfoText2={
+                "it remained true and the letters remained red as I defined. I corrected this with if else statements."
+              }
+            />
+          </div>
+        }
+      />
+      <Project
+        Title={"Weather App"}
+        Link={"https://alper-weatherapp.netlify.app"}
+        Img={weather}
+        Details={
+          <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+            <Info
+              InfoText={"React.js and Tailwind were used in this project."}
+              InfoText2={
+                "The goal in this project was to create a word game by mixing random letters with the letters containing the answer."
+              }
+            />
+
+            <Info
+              InfoImg={crossword1}
+              InfoText={
+                "Split each letter in the answer to the question created in the Data.js file and shuffle the order by adding 4 random letters to these letters."
+              }
+            />
+            <Info InfoImg={crossword2} InfoText={"Shuffle function"} />
+            <Info
+              InfoImg={crossword3}
+              InfoText={
+                "A function that checks whether the answer is true or false. If the entered word has the same number of characters and is the same as the answer,"
+              }
+              InfoText2={
+                " it clears the written words and moves on to the next question. If not, it reports that it is wrong."
+              }
+            />
+
+            <Info
+              InfoImg={crossword4}
+              InfoText={
+                "The function I use with onClick to delete incorrectly entered letters"
+              }
+            />
+            <Info
+              InfoImg={crossword5}
+              InfoText={`If the answer was entered incorrectly, the value of the definition of "wrong" became true, and even if we deleted the incorrect letters,`}
+              InfoText2={
+                "it remained true and the letters remained red as I defined. I corrected this with if else statements."
+              }
             />
           </div>
         }
