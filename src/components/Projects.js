@@ -31,7 +31,8 @@ function Projects() {
       <Project
         Title={"Netflix Clone"}
         Link={"https://alper-movieapp.netlify.app/"}
-        Github={"https://github.com/Hololopoto/netflix-clone"}
+        Github={"https://github.com/Hololopoto/netflix-clone
+        "}
         Img={netflix}
         Details={
           <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
