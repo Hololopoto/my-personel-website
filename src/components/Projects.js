@@ -20,6 +20,10 @@ import crossword3 from "./Images/CrosswordInfo3.png";
 import crossword4 from "./Images/CrosswordInfo4.png";
 import crossword5 from "./Images/CrosswordInfo5.png";
 import weather from "./Images/Weather.png";
+import weather1 from "./Images/WeatherInfo1.png";
+import weather2 from "./Images/WeatherInfo2.png";
+import weather3 from "./Images/WeatherInfo3.png";
+import weather4 from "./Images/WeatherInfo4.png";
 
 function Projects() {
   return (
@@ -177,21 +181,23 @@ function Projects() {
         Details={
           <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
             <Info
-              InfoText={"React.js and Tailwind were used in this project."}
+              InfoText={
+                "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
+              }
               InfoText2={
                 "The goal in this project was to create a word game by mixing random letters with the letters containing the answer."
               }
             />
 
             <Info
-              InfoImg={crossword1}
+              InfoImg={weather1}
               InfoText={
                 "Split each letter in the answer to the question created in the Data.js file and shuffle the order by adding 4 random letters to these letters."
               }
             />
-            <Info InfoImg={crossword2} InfoText={"Shuffle function"} />
+            <Info InfoImg={weather2} InfoText={"Shuffle function"} />
             <Info
-              InfoImg={crossword3}
+              InfoImg={weather3}
               InfoText={
                 "A function that checks whether the answer is true or false. If the entered word has the same number of characters and is the same as the answer,"
               }
@@ -201,16 +207,9 @@ function Projects() {
             />
 
             <Info
-              InfoImg={crossword4}
+              InfoImg={weather4}
               InfoText={
                 "The function I use with onClick to delete incorrectly entered letters"
-              }
-            />
-            <Info
-              InfoImg={crossword5}
-              InfoText={`If the answer was entered incorrectly, the value of the definition of "wrong" became true, and even if we deleted the incorrect letters,`}
-              InfoText2={
-                "it remained true and the letters remained red as I defined. I corrected this with if else statements."
               }
             />
           </div>
