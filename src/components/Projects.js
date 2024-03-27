@@ -185,14 +185,14 @@ function Projects() {
                 "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
               }
               InfoText2={
-                "The goal in this project was to create a word game by mixing random letters with the letters containing the answer."
+                "My goal in this project is to create a 3-day weather site with the data I get from the API."
               }
             />
 
             <Info
               InfoImg={weather1}
               InfoText={
-                "Split each letter in the answer to the question created in the Data.js file and shuffle the order by adding 4 random letters to these letters."
+                "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
               }
             />
             <Info InfoImg={weather2} InfoText={"Shuffle function"} />
