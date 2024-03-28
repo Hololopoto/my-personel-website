@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 
 function Info({ InfoImg, InfoText, InfoText2 }) {
   const [zoom, setZoom] = useState(false);
@@ -6,6 +7,7 @@ function Info({ InfoImg, InfoText, InfoText2 }) {
     setZoom(!zoom);
     e.preventDefault();
   };
+
   return (
     <div>
       <div className="flex items-center gap-3 m-4 rounded-lg bg-slate-400 ">

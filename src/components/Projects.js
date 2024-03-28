@@ -196,15 +196,13 @@ function Projects() {
                 "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
               }
             />
-            <Info InfoImg={weather5} InfoText={"Shuffle function"} />
+            <Info
+              InfoImg={weather5}
+              InfoText={`Determining the image to be displayed according to the "weather" data returned from the API.`}
+            />
             <Info
               InfoImg={weather3}
-              InfoText={
-                "A function that checks whether the answer is true or false. If the entered word has the same number of characters and is the same as the answer,"
-              }
-              InfoText2={
-                " it clears the written words and moves on to the next question. If not, it reports that it is wrong."
-              }
+              InfoText={`The "description" data returned from the API comes as one or two words and in lowercase letters. I defined a function to capitalize the initials in both cases.`}
             />
 
             <Info
