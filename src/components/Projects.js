@@ -24,6 +24,7 @@ import weather1 from "./Images/WeatherInfo1.png";
 import weather2 from "./Images/WeatherInfo2.png";
 import weather3 from "./Images/WeatherInfo3.png";
 import weather4 from "./Images/WeatherInfo4.png";
+import weather5 from "./Images/WeatherInfo5.png";
 
 function Projects() {
   return (
@@ -195,7 +196,7 @@ function Projects() {
                 "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
               }
             />
-            <Info InfoImg={weather2} InfoText={"Shuffle function"} />
+            <Info InfoImg={weather5} InfoText={"Shuffle function"} />
             <Info
               InfoImg={weather3}
               InfoText={
