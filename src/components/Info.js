@@ -6,6 +6,7 @@ export const useZoomState = () => {
 };
 function Info({ InfoImg, InfoText, InfoText2 }) {
   const { zoom, setZoom } = useZoomState();
+  console.log(zoom);
   const zoomInfo = (e) => {
     setZoom(!zoom);
     e.preventDefault();
