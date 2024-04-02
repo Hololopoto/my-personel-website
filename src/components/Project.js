@@ -30,7 +30,7 @@ function Project({
         <div className="w-10/12">
           <img src={Img} alt="Netflix-Clone" />
         </div>
-        <div className="flex gap-x-96 ">
+        <div className="flex justify-between w-3/4">
           <a href={Link} target="_blank">
             <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
               Go Project

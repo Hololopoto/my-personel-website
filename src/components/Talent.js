@@ -10,7 +10,7 @@ function Talent2({ Top, Img, Alt, Bottom, Bg }) {
 
       <div className="img mt-12 flex justify-center items-center">
         <img
-          className="h-36 max-[768px]:w-28 w-auto max-[768px]:hover:scale-100 max-[768px]:px-5 hover:scale-125 transition"
+          className="h-36 max-[768px]:h-28 w-auto max-[768px]:hover:scale-100 max-[768px]:px-5 hover:scale-125 transition"
           src={Img}
           alt={Alt}
         />
