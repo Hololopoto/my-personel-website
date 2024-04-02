@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 function Project({
   Title,
   Img,
@@ -10,9 +9,11 @@ function Project({
   Github,
 }) {
   const [detail, setDetail] = useState(false);
+
   const handleDetail = (e) => {
     setDetail(!detail);
   };
+
   return (
     <div>
       <div className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-slate-700 items-center text-white">
