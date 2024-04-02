@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 
+export const useZoomState = () => {
+  const [zoom, setZoom] = useState(false);
+  return { zoom, setZoom };
+};
 function Info({ InfoImg, InfoText, InfoText2 }) {
-  export const [zoom, setZoom] = useState(false);
-  export const zoomInfo = (e) => {
+  const { zoom, setZoom } = useZoomState();
+  const zoomInfo = (e) => {
     setZoom(!zoom);
     e.preventDefault();
   };
 
   return (
-    <div
-      onClick={() => {
-        setZoom(!zoom);
-      }}>
+    <div>
       <div className="flex items-center gap-3 m-4 rounded-lg bg-slate-400 ">
         <div className="w-20 h-20  flex justify-center items-center">
           <img

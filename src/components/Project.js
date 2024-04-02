@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useZoomState } from "./Info";
 function Project({
   Title,
   Img,
@@ -9,14 +10,22 @@ function Project({
   Github,
 }) {
   const [detail, setDetail] = useState(false);
-
+  const { zoom, setZoom } = useZoomState();
+  console.log(zoom);
   const handleDetail = (e) => {
     setDetail(!detail);
+    e.preventDefault();
+  };
+  const falseZoom = (e) => {
+    setZoom(!zoom);
+    e.preventDefault();
   };
 
   return (
     <div>
-      <div className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-slate-700 items-center text-white">
+      <div
+        onClick={falseZoom}
+        className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-slate-700 items-center text-white">
         <div className="text-3xl m-7 mb-5">
           <h1>{Title}</h1>
         </div>
