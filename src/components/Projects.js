@@ -207,9 +207,7 @@ function Projects() {
 
             <Info
               InfoImg={weather4}
-              InfoText={
-                "The function I use with onClick to delete incorrectly entered letters"
-              }
+              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
             />
           </div>
         }
