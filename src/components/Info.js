@@ -12,7 +12,6 @@ function Info({ InfoImg, InfoText, InfoText2 }) {
       <div className="flex items-center gap-3 m-3 rounded-lg bg-slate-400 ">
         <div className="w-20 h-20 flex justify-center items-center">
           <img
-            // style={{ transform: "translate(-50%,-35%) scale(.9)" }}
             src={InfoImg}
             alt=""
             onClick={zoomInfo}
