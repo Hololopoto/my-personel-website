@@ -40,7 +40,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/netflix-clone"}
         Img={netflix}
         Details={
-          <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={
                 "TheMovieDb Api, Axios, React.js and Tailwind were used in this project."
@@ -86,7 +86,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/pokedex"}
         Img={pokedex}
         Details={
-          <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+          <div className="bg-slate-300 m-auto absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={
                 "PokeApi, Axios, React.js and Tailwind were used in this project."
@@ -134,7 +134,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/game"}
         Img={crossword}
         Details={
-          <div className="bg-slate-300 absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={"React.js and Tailwind were used in this project."}
               InfoText2={
@@ -181,7 +181,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/weather"}
         Img={weather}
         Details={
-          <div className="bg-slate-300 group absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+          <div className="bg-slate-300 group absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={
                 "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
@@ -219,7 +219,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/contacts-app"}
         Img={contact}
         Details={
-          <div className="bg-slate-300 group absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={
                 "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
