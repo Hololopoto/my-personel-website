@@ -46,7 +46,7 @@ function Talents() {
         />
       </div>
       {/* 3Lü Satır */}
-      <div className="maincontain flex h-auto box-border">
+      <div className="maincontain flex max-[768px]:flex-col max-[768px]:items-center h-auto box-border">
         <Talent
           Top={"API"}
           Bg={"bg-gray-200"}
@@ -73,7 +73,7 @@ function Talents() {
           Bottom={"Bootstrap"}
         />
       </div>
-      <div className="maincontain flex h-auto box-border  ">
+      <div className="maincontain flex max-[768px]:flex-col max-[768px]:items-center h-auto box-border  ">
         <Talent
           Top={"Responsive Design"}
           Bg={"bg-zinc-300"}
