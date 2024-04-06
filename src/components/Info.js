@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 
-export const useZoomState = () => {
-  const [zoom, setZoom] = useState(false);
-  return { zoom, setZoom };
-};
 function Info({ InfoImg, InfoText, InfoText2 }) {
-  const { zoom, setZoom } = useZoomState();
-  console.log(zoom);
+  const [zoom, setZoom] = useState(false);
   const zoomInfo = (e) => {
     setZoom(!zoom);
     e.preventDefault();

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useZoomState } from "./Info";
 function Project({
   Title,
   Img,
@@ -10,26 +9,20 @@ function Project({
   Github,
 }) {
   const [detail, setDetail] = useState(false);
-  const { zoom, setZoom } = useZoomState();
-  console.log(zoom);
   const handleDetail = (e) => {
     setDetail(!detail);
-    e.preventDefault();
-  };
-  const falseZoom = (e) => {
-    setZoom(!zoom);
     e.preventDefault();
   };
 
   return (
     <div>
-      <div className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-slate-700 items-center text-white">
+      <div className="flex flex-col border-2 mb-10 pb-10 rounded-lg box-border mx-9 bg-neutral-500 items-center text-neutral-50">
         <div className="text-3xl m-7 mb-5">
           <h1>{Title}</h1>
         </div>
         <button
           onClick={handleDetail}
-          className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
+          className="bg-neutral-600 hover:bg-neutral-400/80 bg-opacity-80 px-5 py-2 m-3 rounded-xl ">
           Details
         </button>
         {detail ? (
@@ -40,12 +33,12 @@ function Project({
         </div>
         <div className="flex justify-between w-3/4">
           <a href={Link} target="_blank">
-            <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
+            <button className="bg-neutral-600 hover:bg-neutral-400/80 bg-opacity-80 px-5 py-2 m-3 rounded-xl ">
               Go Project
             </button>
           </a>
           <a href={Github} target="_blank">
-            <button className="bg-zinc-500 opacity-80 px-5 py-2 m-3 rounded-xl ">
+            <button className="bg-neutral-600 hover:bg-neutral-400/80 bg-opacity-80 px-5 py-2 m-3 rounded-xl ">
               GİtHub
             </button>
           </a>

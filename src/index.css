@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #05879e;
+  background-color: #a3a0a0;
+  background-repeat: repeat;
+  background-image: url("/src/components/Images/background.svg");
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

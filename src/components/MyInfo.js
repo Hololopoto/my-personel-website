@@ -3,7 +3,7 @@ import React from "react";
 function MyInfo() {
   return (
     <div>
-      <div className="my-infos text-white bg-slate-500 m-20 p-20 max-[768px]:p-7 max-[768px]:m-10  rounded-md">
+      <div className="my-infos text-white bg-neutral-500 m-20 p-20 max-[768px]:p-7 max-[768px]:m-10  rounded-md">
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ea
           quasi, odio minus nesciunt, vero excepturi perspiciatis officiis in ut

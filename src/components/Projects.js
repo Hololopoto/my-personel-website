@@ -25,11 +25,12 @@ import weather2 from "./Images/WeatherInfo2.png";
 import weather3 from "./Images/WeatherInfo3.png";
 import weather4 from "./Images/WeatherInfo4.png";
 import weather5 from "./Images/WeatherInfo5.png";
+import contact from "./Images/Contact.png";
 
 function Projects() {
   return (
     <div>
-      <div className="text-3xl flex justify-center text-white m-7 mb-10">
+      <div className="text-3xl flex justify-center text-neutral-900 m-7 mb-10">
         <h1>My Project</h1>
       </div>
 
@@ -179,6 +180,44 @@ function Projects() {
         Link={"https://alper-weatherapp.netlify.app"}
         Github={"https://github.com/Hololopoto/weather"}
         Img={weather}
+        Details={
+          <div className="bg-slate-300 group absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
+            <Info
+              InfoText={
+                "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
+              }
+              InfoText2={
+                "My goal in this project is to create a 3-day weather site with the data I get from the API."
+              }
+            />
+
+            <Info
+              InfoImg={weather1}
+              InfoText={
+                "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
+              }
+            />
+            <Info
+              InfoImg={weather5}
+              InfoText={`Determining the image to be displayed according to the "weather" data returned from the API.`}
+            />
+            <Info
+              InfoImg={weather3}
+              InfoText={`The "description" data returned from the API comes as one or two words and in lowercase letters. I defined a function to capitalize the initials in both cases.`}
+            />
+
+            <Info
+              InfoImg={weather4}
+              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+            />
+          </div>
+        }
+      />
+      <Project
+        Title={"Contact App"}
+        Link={"https://alper-contact-app.netlify.app/"}
+        Github={"https://github.com/Hololopoto/contacts-app"}
+        Img={contact}
         Details={
           <div className="bg-slate-300 group absolute left-[32rem] max-[1024px]:left-[9rem] max-[768px]:left-[4rem] z-50 max-[768px]:w-[70%] max-[768px]:items-center flex flex-col rounded-lg">
             <Info
