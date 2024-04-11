@@ -39,7 +39,7 @@ function Project({
           </a>
           <a href={Github} target="_blank">
             <button className="bg-neutral-600 hover:bg-neutral-400/80 bg-opacity-80 px-5 py-2 m-3 rounded-xl ">
-              GİtHub
+              GitHub
             </button>
           </a>
         </div>
