@@ -221,7 +221,7 @@ function Projects() {
       />
       <Project
         Title={"Contact App"}
-        Link={"https://alper-contact-app.netlify.app/"}
+        Link={"https://hololopoto-todo-app.netlify.app/"}
         Github={"https://github.com/Hololopoto/contacts-app"}
         Img={contact}
         Details={
