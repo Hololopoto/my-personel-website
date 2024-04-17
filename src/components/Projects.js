@@ -46,7 +46,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/netflix-clone"}
         Img={netflix}
         Details={
-          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[37.5%] w-3/4   flex flex-col rounded-lg">
             <Info
               InfoText={
                 "TheMovieDb Api, Axios, React.js and Tailwind were used in this project."
@@ -92,7 +92,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/pokedex"}
         Img={pokedex}
         Details={
-          <div className="bg-slate-300 m-auto absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
+          <div className="bg-slate-300 m-auto absolute left-1/2 -ml-[37.5%] w-3/4   flex flex-col rounded-lg">
             <Info
               InfoText={
                 "PokeApi, Axios, React.js and Tailwind were used in this project."
@@ -140,7 +140,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/game"}
         Img={crossword}
         Details={
-          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[37.5%] w-3/4   flex flex-col rounded-lg">
             <Info
               InfoText={"React.js and Tailwind were used in this project."}
               InfoText2={
@@ -187,7 +187,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/weather"}
         Img={weather}
         Details={
-          <div className="bg-slate-300 group absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
+          <div className="bg-slate-300 group absolute left-1/2 -ml-[37.5%] w-3/4   flex flex-col rounded-lg">
             <Info
               InfoText={
                 "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
@@ -225,7 +225,7 @@ function Projects() {
         Github={"https://github.com/Hololopoto/contacts-app"}
         Img={contact}
         Details={
-          <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
+          <div className="bg-slate-300 absolute left-1/2 -ml-[37.5%] w-3/4  flex flex-col rounded-lg">
             <Info
               InfoText={
                 "React.js, Uuidv4 and Tailwind were used in this project."
