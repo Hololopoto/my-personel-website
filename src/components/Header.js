@@ -12,7 +12,7 @@ function App() {
           <button
             className=" px-5 py-3 m-9 rounded-md bg-neutral-600"
             onClick={handleMenu}>
-            İletişim
+            Contact
           </button>
           {menu ? (
             <div className="link bg-neutral-500   transition ">
