@@ -26,6 +26,12 @@ import weather3 from "./Images/WeatherInfo3.png";
 import weather4 from "./Images/WeatherInfo4.png";
 import weather5 from "./Images/WeatherInfo5.png";
 import contact from "./Images/Contact.png";
+import contact1 from "./Images/ContactInfo1.png";
+import contact2 from "./Images/ContactInfo2.png";
+import contact3 from "./Images/ContactInfo3.png";
+import contact4 from "./Images/ContactInfo4.png";
+import contact5 from "./Images/ContactInfo5.png";
+import contact6 from "./Images/ContactInfo6.png";
 
 function Projects() {
   return (
@@ -230,22 +236,30 @@ function Projects() {
             />
 
             <Info
-              InfoImg={weather1}
+              InfoImg={contact1}
               InfoText={
                 "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
               }
             />
             <Info
-              InfoImg={weather5}
+              InfoImg={contact2}
               InfoText={`Determining the image to be displayed according to the "weather" data returned from the API.`}
             />
             <Info
-              InfoImg={weather3}
+              InfoImg={contact3}
               InfoText={`The "description" data returned from the API comes as one or two words and in lowercase letters. I defined a function to capitalize the initials in both cases.`}
             />
 
             <Info
-              InfoImg={weather4}
+              InfoImg={contact4}
+              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+            />
+            <Info
+              InfoImg={contact5}
+              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+            />
+            <Info
+              InfoImg={contact6}
               InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
             />
           </div>
