@@ -228,39 +228,44 @@ function Projects() {
           <div className="bg-slate-300 absolute left-1/2 -ml-[25%] w-1/2  flex flex-col rounded-lg">
             <Info
               InfoText={
-                "React.js,OpenWeatherMap Apı and Tailwind were used in this project."
+                "React.js, Uuidv4 and Tailwind were used in this project."
               }
               InfoText2={
-                "My goal in this project is to create a 3-day weather site with the data I get from the API."
+                "My goal in this project is to create a todo list and check its completion status."
               }
             />
 
             <Info
               InfoImg={contact1}
               InfoText={
-                "Retrieving data from the API according to the name of the city searched and displaying it with enter and click functions."
+                "The process of assigning the data entered to the inputs as values (onChangeInput)."
+              }
+              InfoText2={
+                "Adding data into the array by checking whether the values are empty, defining a unique id for each data using UUID (onSubmit)."
               }
             />
             <Info
               InfoImg={contact2}
-              InfoText={`Determining the image to be displayed according to the "weather" data returned from the API.`}
+              InfoText={`Whenever contacts is updated it resets the inputs to "initialFormValues".`}
             />
             <Info
               InfoImg={contact3}
-              InfoText={`The "description" data returned from the API comes as one or two words and in lowercase letters. I defined a function to capitalize the initials in both cases.`}
+              InfoText={`It saves the data added to the array to local storage and sends the data in local storage to the array every time the page is refreshed.`}
             />
 
             <Info
               InfoImg={contact4}
-              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+              InfoText={`Filter the Contacts array and show the element containing the filterText value.`}
             />
             <Info
               InfoImg={contact5}
-              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+              InfoText={`Using "findIndex", the index of the first element is found, corresponding to the unique id we defined earlier.`}
+              InfoText2={`Using "splice", the item in the index we found is deleted. With this code, the array is also updated in local storage.`}
             />
             <Info
               InfoImg={contact6}
-              InfoText={`The dt_txt data coming from the API was coming as "YYYY-MM-DD 00:00:00", this is the code I used to remove the time data and change it to "DD.MM.YYYY".`}
+              InfoText={`Since I later converted it to a todo app, I added a checkbox. If the id sent to ToggleComplete is equal to the checked id, the array element,`}
+              InfoText2={`corresponding to the relevant id is updated (line-through, text-gray-400). And it is saved to local storage.`}
             />
           </div>
         }
