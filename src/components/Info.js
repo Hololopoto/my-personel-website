@@ -15,9 +15,9 @@ function Info({ InfoImg, InfoText, InfoText2 }) {
             src={InfoImg}
             alt=""
             onClick={zoomInfo}
-            className={`object-cover rounded-tr-md rounded-bl-md  ${
+            className={`object-cover text-xl rounded-tr-md rounded-bl-md  ${
               zoom &&
-              "scale-[80%]  max-[768px]:scale-[140%] max-[1024px]:scale-[110%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 origin-center  hover:cursor-zoom-out"
+              "scale-[80%] max-[768px]:scale-[140%] max-[1024px]:scale-[110%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 origin-center  hover:cursor-zoom-out"
             } hover:cursor-zoom-in transition-all`}
           />
         </div>
