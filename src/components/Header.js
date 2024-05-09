@@ -18,10 +18,12 @@ function App() {
             <div className="link bg-neutral-500   transition ">
               <ul className="flex  flex-row gap-7">
                 <li className="bg-neutral-600 cursor-pointer hover:bg-neutral-400 py-1 px-3 rounded-md">
-                  <a href="http://">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/alperdemirr/">
+                    Linkedin
+                  </a>
                 </li>
                 <li className="bg-neutral-600 cursor-pointer hover:bg-neutral-400 py-1 px-3 rounded-md">
-                  GitHub
+                  <a href="https://github.com/Hololopoto">Github</a>
                 </li>
               </ul>
             </div>
